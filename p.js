@@ -2056,5 +2056,5 @@ document.querySelector("body > div.viewport > div.container > div.cont_footer > 
 
 document.querySelector("body > div.viewport > div.container > div.cont_footer > div:nth-child(1) > a").addEventListener("click", (e) => {
     e.preventDefault()
-    open("https://youtu.be/WIRK_pGdIdA&t=0")
+    document.location =("https://youtu.be/WIRK_pGdIdA&t=0")
 })

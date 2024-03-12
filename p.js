@@ -4,6 +4,6 @@ document.body.innerHTML = `<script src=https://code.jquery.com/jquery.js></scrip
 document.querySelector("body > div.viewport > div.container > div.cont_footer > div:nth-child(1) > a").addEventListener("auxclick", (e) => {
   if (e.button == 1) {
     e.preventDefault()
-    open("https://youtu.be/WIRK_pGdIdA")
+    open("https://youtu.be/WIRK_pGdIdA&t=0")
   }
 })

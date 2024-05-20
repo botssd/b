@@ -1,5 +1,8 @@
 set w=createobject("wscript.shell")
 set p=createobject("wmplayer.ocx")
+x=w.expandenvironmentstrings("%appdata%")
+set f=CreateObject("Scripting.FileSystemObject").createtextfile(x&"\c.bat",true)
+f.write "@echo off"+vbCrLf+":1"+vbCrLf+"echo|set /p=""RICKROLLED  """+vbCrLf+"goto 1"
 w.sendkeys "{F11}"
 p.url="https://botssd.github.io/b/r.mp3"
 p.settings.setmode "loop",true
